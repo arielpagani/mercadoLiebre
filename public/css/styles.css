@@ -33,11 +33,19 @@ header div.logo {
 }
 
 header nav {
-    font-size: 12px;
+    display: none;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-bottom: 10px;
 }
 
 header ul li {
     list-style-type: none;
+
 }
 
 header ul li a {
@@ -182,7 +190,9 @@ footer section h4 {
 
 @media screen and (min-width:361px) and (max-width:769px){
     header nav {
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20px;
     }
 
     header div.burger-menu{
@@ -206,7 +216,9 @@ footer section h4 {
 
 @media screen and (min-width:769px){
     header nav {
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 40px;
     }
 
     header div.burger-menu{
